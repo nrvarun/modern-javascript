@@ -2,7 +2,7 @@ Javascript Concepts
 
 ![tools](https://cdn.iconscout.com/icon/free/png-256/javascript-20-555998.png)
 
-- [ ] Varibles
+- [ ] Variables
 - [ ] Scope
 - [ ] Execution Context
 - [ ] Event Loop
