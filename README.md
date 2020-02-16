@@ -1,8 +1,8 @@
 Javascript Concepts
 
-![tools](https://pluspng.com/img-png/javascript-vector-png-javascript-vector-logo-600.png)
+![tools](https://cdn.iconscout.com/icon/free/png-256/javascript-20-555998.png)
 
-- [x] Varibles
+- [ ] Varibles
 - [ ] Scope
 - [ ] Execution Context
 - [ ] Event Loop
