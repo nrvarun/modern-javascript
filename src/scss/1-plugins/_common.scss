@@ -11,9 +11,8 @@ ul {
 
 .is-disabled {
   pointer-events: none;
-  cursor        : none;
+  cursor: none;
 }
-
 
 body {
   overflow-x: hidden;
@@ -22,6 +21,18 @@ body {
 // main {
 //   overflow: hidden;
 // }
+
+.d-flex {
+  display: flex !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.m-auto {
+  margin: auto !important;
+}
 
 .no-scroll {
   overflow: hidden;
