@@ -1,1 +1,61 @@
 @charset "UTF-8";
+
+body {
+  font-size: 16px;
+  font-family: "Source Code Pro", monospace;
+}
+
+/*
+Typography
+*/
+
+.fnt-300 {
+  font-weight: 300;
+}
+
+.fnt-400 {
+  font-weight: 400;
+}
+
+.fnt-500 {
+  font-weight: 500;
+}
+
+.fnt-700 {
+  font-weight: 700;
+}
+
+p {
+  font-size: 1em;
+  margin: 0.25em auto;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.25em auto;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0.5em auto;
+}
+
+h3 {
+  font-size: 1.25em;
+  margin: 0.5em auto;
+}
+
+h4,
+p {
+  font-size: 1em;
+  margin: 0.5em auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $primary-color;
+}
