@@ -1,4 +1,4 @@
-console.log("Hi, my name is Ukyo!"); // eslint-disable-line no-console
+console.log("Modern Javascript "); // eslint-disable-line no-console
 
 /**
  * Getting in to Javascript : Kyle Simpson
@@ -10,5 +10,4 @@ fictionShelf.loadBooks(fictionShelf);
 /**
  * Fundamentals to FunctionalJS: v2
  */
-import "./Courses/FundamentalsToFunctionalJS/HOC";
-import "./Courses/FundamentalsToFunctionalJS/Array";
+import "./Courses/FundamentalsToFunctionalJS/";

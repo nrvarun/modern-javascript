@@ -17,10 +17,10 @@ console.log(filterValue);
 
 //Array reduce method hand-code
 const reduce = (collection, cb, initial) => {
-  let accum = initial || collection[0];
+  let accum = initial;
 
   for (i = 0; i < collection.length; i++) {
-    if (i == 0) {
+    if (i == 0 && accum === undefined) {
       accum = collection[0];
     } else {
       accum = cb(collection[i], accum);
@@ -30,6 +30,6 @@ const reduce = (collection, cb, initial) => {
   return accum;
 };
 
-const findSum = reduce([1, 1, 2], (item, sum) => item + sum);
+const findSum = reduce([1, 1, 2], (item, sum) => item + sum, 10);
 
 console.log(findSum);
