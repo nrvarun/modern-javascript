@@ -70,3 +70,26 @@ const practice = () => `finally done with practicing all 🙃`;
 const jsLearnUp = _.flowRight(learn, practice);
 
 console.log(jsLearnUp("Composing"));
+
+/**
+ * Advanced Scope;
+ */
+
+const myAlert = () => {
+  let count = 0;
+  let x = "Help i think i found a clue";
+
+  const alerter = () => {
+    console.log(`The count is ${x} ${++count}`);
+  };
+
+  return alerter;
+};
+
+const myFunc = new myAlert();
+
+myFunc();
+myFunc();
+myFunc();
+myFunc();
+myFunc();

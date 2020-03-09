@@ -11,3 +11,8 @@ fictionShelf.loadBooks(fictionShelf);
  * Fundamentals to FunctionalJS: v2
  */
 import "./Courses/FundamentalsToFunctionalJS/";
+
+/**
+ * Javascript the Hard Parts
+ */
+import "./Courses/JavascriptTheHardPartsv2/";
